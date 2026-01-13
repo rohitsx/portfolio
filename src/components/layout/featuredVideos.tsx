@@ -4,6 +4,7 @@ import Link from "next/link";
 
 export const FeaturedVideos = () => {
   const videos = [
+    { id: "bFGVHdKG_xw", title: "EASEYou", description: "A real-time chat platform combating loneliness with a secure minute-based interaction economy." },
     { id: "36hbYPvvbVQ", title: "StreamSync", description: "Voice to Super Chats for direct creator-audience interaction." },
     { id: "ruUl1iP9fH8", title: "JobFit Resume", description: "Tailor your resume to the job description. (Youtube Demo Video)" },
     { id: "YTGfyUdhu-U", title: "Omegle Clone", description: "Real-time video chat platform that connects strangers for random, spontaneous conversations." },
