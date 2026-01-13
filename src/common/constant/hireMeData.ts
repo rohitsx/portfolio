@@ -117,23 +117,14 @@ export const clientsData = [
     contributions: [
       {
         description: "Architected and built a complete user referral and discount system, designing the database schema (Drizzle ORM) and implementing backend logic for code generation, validation, and application during gig creation.",
-        link: "https://github.com/AbleAI2025/able-ai/pull/83",
       },
       {
         description: "Engineered an external recommendation feature, proactively identifying database schema limitations and coordinating migrations on a live system to support the new functionality.",
-        link: "https://github.com/AbleAI2025/able-ai/pull/66",
       },
       {
         description: "Developed a complex gig amendment workflow for buyers, which involved significant backend state management, schema updates, and UI component refactoring to handle the end-to-end process.",
-        link: "https://github.com/AbleAI2025/able-ai/pull/128",
       },
-    ],
-    prs: [
-      { title: "feat: Add buyer gig amendment flow and refactor shared components", url: "https://github.com/AbleAI2025/able-ai/pull/128" },
-      { title: "feat: implement gig amendment flow with amendId, schema, and UI updates", url: "https://github.com/AbleAI2025/able-ai/pull/108" },
-      { title: "feat(onboarding): Implement referral code capture and application", url: "https://github.com/AbleAI2025/able-ai/pull/83" },
-      { title: "Feature/external recommendation form", url: "https://github.com/AbleAI2025/able-ai/pull/66" },
-    ],
+    ]
   },
   {
     name: "jpg to png Convertor",

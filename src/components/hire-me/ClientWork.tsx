@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Briefcase, ChevronDown, ChevronsRight, ExternalLink, GitMerge } from "lucide-react";
+import { Briefcase, ChevronDown, ChevronsRight, ExternalLink } from "lucide-react";
 import { Container } from "@/common/component/elements/container";
-import { clientsData, PullRequest } from "@/common/constant/hireMeData";
+import { clientsData } from "@/common/constant/hireMeData";
 
 interface ClientWorkCardProps {
   logo: string;
@@ -13,10 +13,9 @@ interface ClientWorkCardProps {
   link: string;
   summary: string;
   contributions: readonly { description: string; link?: string }[];
-  prs?: readonly PullRequest[];
 }
 
-const ClientWorkCard = ({ logo, name, role, link, summary, contributions, prs }: ClientWorkCardProps) => {
+const ClientWorkCard = ({ logo, name, role, link, summary, contributions }: ClientWorkCardProps) => {
   console.log({name})
   const [showDetails, setShowDetails] = useState(name === 'Foxy Apps' || name === 'Able AI');
 
@@ -61,24 +60,6 @@ const ClientWorkCard = ({ logo, name, role, link, summary, contributions, prs }:
                   </li>
                 ))}
               </ul>
-              {prs && prs.length > 0 && (
-                 <div className="border-t border-dashed pt-3">
-                    <div className="flex items-center gap-2 font-semibold text-neutral-700 text-sm">
-                      <GitMerge size={14} className="text-purple-500" />
-                      <h4>Key Pull Requests</h4>
-                    </div>
-                    <ul className="mt-2 pl-6 space-y-1">
-                      {prs.map((pr, index) => (
-                        <li key={index} className="text-sm">
-                          <Link href={pr.url} target="_blank" rel="noopener noreferrer" className="flex items-start gap-2 text-blue-600 hover:underline">
-                            <GitMerge size={14} className="mt-1 flex-shrink-0" />
-                            <span>{pr.title}</span>
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-              )}
             </div>
           )}
         </div>

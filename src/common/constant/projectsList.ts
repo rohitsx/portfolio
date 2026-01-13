@@ -1,5 +1,25 @@
 export const projectsList = [
   {
+    title: "EASEYou",
+    description:
+      "A real-time chat platform combating loneliness with a secure minute-based interaction economy.",
+    youtube: "https://youtu.be/bFGVHdKG_xw",
+    image: "https://img.youtube.com/vi/bFGVHdKG_xw/0.jpg",
+    // link: "ADD_PLAY_STORE_LINK_HERE", // Uncomment when live
+    // github: "ADD_REPO_LINK_HERE", // Uncomment if public
+    stacks: [
+      "Expo",
+      "React Native",
+      "TypeScript",
+      "Firebase",
+      "Cloudflare Workers",
+      "Zustand",
+      "NativeWind",
+      "RevenueCat",
+      "Notifee",
+    ],
+  },
+  {
     title: "StreamSync",
     description:
       "Interactive tool for creators and audiences, enabling voice super chats through an extension.",
@@ -41,7 +61,8 @@ export const projectsList = [
   },
   {
     title: "Pic0",
-    description: "Pic0 is an AI photo editor that transforms your images with simple text prompts for quick, seamless results.",
+    description:
+      "Pic0 is an AI photo editor that transforms your images with simple text prompts for quick, seamless results.",
     link: "https://www.pic0.in/",
     youtube: "https://www.youtube.com/watch?v=Weq_XcdFCeg",
     image: "https://img.youtube.com/vi/Weq_XcdFCeg/0.jpg",
@@ -59,8 +80,8 @@ export const projectsList = [
       "Tailwind CSS",
       "Google Auth",
       "RevenueCat",
-      "Webhook"
-    ]
+      "Webhook",
+    ],
   },
   {
     title: "Omegle Clone",
