@@ -68,10 +68,10 @@ export const ExperienceCard = ({
           {showResponsibilities && responsibilities.length > 0 && (
             <ul className="list-disc mt-2 list-inside text-neutral-600 px-1 space-y-3 text-sm">
               {responsibilities.map((item, idx) => (
-                <div className="flex gap-3 ">
-                <div>➜</div>
-                <div key={idx}>{item}</div>
-                </div>
+                <li key={`${company}-${idx}`} className="flex gap-3 list-none">
+                  <span>➜</span>
+                  <span>{item}</span>
+                </li>
               ))}
             </ul>
           )}
@@ -92,4 +92,3 @@ export const Career = () => {
     </div>
   )
 }
-

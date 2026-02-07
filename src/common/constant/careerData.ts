@@ -1,5 +1,26 @@
 export const careerData = [
   {
+    companyLogo: "https://cdn.prod.website-files.com/6768f4e19e9757807622a8bf/676a4d1d6e0d41f9dd419da0_white_bg.png",
+    role: "Full Stack Engineer",
+    company: "EndianAI",
+    companyDetails: "AI Startup",
+    location: "Hyderabad 🇮🇳",
+    startDate: "Feb 2026",
+    employmentType: "Full-time (Hybrid)",
+    responsibilities: [
+      "Develop, test, and maintain software applications in alignment with project requirements.",
+      "Collaborate with cross-functional teams to define, design, and ship new features.",
+      "Troubleshoot and resolve software defects and issues in a timely manner.",
+      "Participate in code reviews to ensure adherence to coding standards and best practices.",
+      "Document software designs, technical specifications, and project plans.",
+      "Integrate third-party APIs and services to enhance application functionality.",
+      "Contribute to the continuous improvement of development processes and methodologies.",
+      "Coordinate with project managers to ensure timely delivery of software components.",
+      "Analyze user requirements and translate them into technical specifications."
+    ],
+    remote: false,
+  },
+  {
     companyLogo: "https://static.thenounproject.com/png/2616533-200.png",
     role: "Full Stack Engineer",
     company: "Able AI",
